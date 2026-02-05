@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Anthea Makeover | Luxury Bridal Artistry Jalandhar</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --luxury-gold: #c5a059;
@@ -16,19 +13,14 @@
             --deep-stone: #1c1917;
         }
 
-        body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: var(--soft-cream);
-            color: var(--deep-stone);
+        body { 
+            font-family: 'Montserrat', sans-serif; 
+            background-color: var(--soft-cream); 
+            color: var(--deep-stone); 
             -webkit-font-smoothing: antialiased;
         }
-
-        h1,
-        h2,
-        h3,
-        .serif {
-            font-family: 'Playfair Display', serif;
-        }
+        
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
 
         /* Unified Horizontal Hero */
         .hero-container {
@@ -55,49 +47,30 @@
             position: absolute;
             inset: 0;
             /* Soft radial gradient to ensure text legibility while keeping the face clear */
-            background: radial-gradient(circle at center, rgba(28, 25, 23, 0.2) 0%, rgba(28, 25, 23, 0.7) 100%);
+            background: radial-gradient(circle at center, rgba(28,25,23,0.2) 0%, rgba(28,25,23,0.7) 100%);
         }
 
-        .text-gold {
-            color: var(--luxury-gold);
-        }
-
-        .bg-gold {
-            background-color: var(--luxury-gold);
-        }
-
-        .border-gold {
-            border-color: var(--luxury-gold);
-        }
+        .text-gold { color: var(--luxury-gold); }
+        .bg-gold { background-color: var(--luxury-gold); }
+        .border-gold { border-color: var(--luxury-gold); }
 
         .reveal-text {
             animation: revealUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
-
         @keyframes revealUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         #mobile-menu {
             transform: translateX(100%);
             transition: transform 0.4s ease-in-out;
         }
-
         #mobile-menu.active {
             transform: translateX(0);
         }
 
-        section {
-            scroll-margin-top: 80px;
-        }
+        section { scroll-margin-top: 80px; }
 
         .brand-pill {
             flex: 0 0 auto;
@@ -112,37 +85,25 @@
         }
 
         /* Hide scrollbar for brands */
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-
-        .no-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 </head>
-
 <body class="overflow-x-hidden">
 
     <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-stone-100">
-        <div class="w-full px-6 md:px-12 h-16 md:h-20 flex justify-between items-center">
-            <div class="flex items-center -ml-4">
-                <img src="assets/images/Anthea_Logo_Centered.png" alt="Anthea Logo" class="h-16 w-auto object-contain">
-            </div>
+        <div class="max-w-7xl mx-auto px-5 h-16 md:h-20 flex justify-between items-center">
+            <div class="text-xl md:text-2xl font-bold tracking-tighter serif">ANTHEA<span class="text-gold">.</span></div>
             <div class="hidden md:flex space-x-8 text-[10px] font-bold tracking-widest uppercase">
                 <a href="#philosophy" class="hover:text-gold transition-colors">Philosophy</a>
                 <a href="#kit" class="hover:text-gold transition-colors">The Kit</a>
                 <a href="#trials" class="hover:text-gold transition-colors">Trials</a>
                 <a href="#nri" class="hover:text-gold transition-colors">NRI Concierge</a>
-                <a href="https://wa.me/919876543210"
-                    class="bg-stone-900 text-white px-6 py-2 hover:bg-gold transition-all">Book</a>
+                <a href="https://wa.me/919876543210" class="bg-stone-900 text-white px-6 py-2 hover:bg-gold transition-all">Book</a>
             </div>
             <button id="menu-toggle" class="md:hidden p-2 text-stone-900">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </button>
         </div>
@@ -152,8 +113,7 @@
         <div class="p-6 flex flex-col h-full">
             <div class="flex justify-end">
                 <button id="menu-close" class="p-2 text-stone-900">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-8 h-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
@@ -165,34 +125,27 @@
                 <a href="#nri" class="mobile-nav-link">NRI Services</a>
             </div>
             <div class="mt-auto pb-10">
-                <a href="https://wa.me/919876543210"
-                    class="block w-full text-center py-4 bg-stone-900 text-white font-bold uppercase tracking-widest text-sm">WhatsApp
-                    Consultation</a>
+                <a href="https://wa.me/919876543210" class="block w-full text-center py-4 bg-stone-900 text-white font-bold uppercase tracking-widest text-sm">WhatsApp Consultation</a>
             </div>
         </div>
     </div>
 
     <!-- NEW HORIZONTAL HERO SECTION -->
     <section class="hero-container">
-        <img src="assets/images/heroBride.jpg" alt="Bridal Realism" class="hero-image">
+        <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=2080&auto=format&fit=crop" alt="Bridal Realism" class="hero-image">
         <div class="hero-overlay"></div>
-
+        
         <div class="relative z-10 px-5 text-center max-w-4xl mx-auto pt-20">
             <div class="reveal-text">
-                <span
-                    class="text-gold text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase block mb-6 drop-shadow-md">Authority
-                    in Skin-True Beauty</span>
-                <h1 id="main-slogan"
-                    class="text-5xl md:text-7xl lg:text-8xl text-white serif leading-[1.1] drop-shadow-lg">
+                <span class="text-gold text-[10px] md:text-xs font-bold tracking-[0.5em] uppercase block mb-6 drop-shadow-md">Authority in Skin-True Beauty</span>
+                <h1 id="main-slogan" class="text-5xl md:text-7xl lg:text-8xl text-white serif leading-[1.1] drop-shadow-lg">
                     Not a Mask.<br><span class="italic text-gold">Just You.</span>
                 </h1>
-                <p
-                    class="text-stone-200 mt-8 max-w-md mx-auto text-sm md:text-lg font-light leading-relaxed drop-shadow-sm">
+                <p class="text-stone-200 mt-8 max-w-md mx-auto text-sm md:text-lg font-light leading-relaxed drop-shadow-sm">
                     Invisible to the eye, flawless to the lens. Specialized bridal artistry for the modern NRI bride.
                 </p>
                 <div class="mt-12 flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="https://wa.me/919876543210"
-                        class="px-8 py-4 bg-white text-stone-900 text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-white transition-all shadow-2xl">
+                    <a href="https://wa.me/919876543210" class="px-8 py-4 bg-white text-stone-900 text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-white transition-all shadow-2xl">
                         Start WhatsApp Consultation
                     </a>
                 </div>
@@ -220,16 +173,14 @@
                 <span class="text-gold font-bold tracking-[0.2em] uppercase text-[10px]">Strategic Consultations</span>
                 <h2 class="text-3xl md:text-5xl mt-3 serif">Private Trials</h2>
             </div>
-
+            
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div class="bg-white p-8 md:p-12 shadow-sm border border-stone-100">
                     <p class="text-stone-600 leading-relaxed text-sm md:text-base mb-8 italic">
-                        "Most artists treat trials as a rehearsal. At Anthea, we treat them as a **Face Mapping
-                        Session**."
+                        "Most artists treat trials as a rehearsal. At Anthea, we treat them as a **Face Mapping Session**."
                     </p>
                     <p class="text-stone-600 leading-relaxed text-sm mb-8">
-                        We analyze skin behavior over 6 hours to prevent oxidation and ensure your base remains flawless
-                        from the morning ceremony to the midnight reception.
+                        We analyze skin behavior over 6 hours to prevent oxidation and ensure your base remains flawless from the morning ceremony to the midnight reception.
                     </p>
                     <div class="border-t border-b border-stone-100 py-6 flex justify-between items-center mb-10">
                         <div>
@@ -238,13 +189,10 @@
                         </div>
                         <span class="text-3xl text-gold serif">₹5,000</span>
                     </div>
-                    <a href="https://wa.me/919876543210"
-                        class="block w-full text-center py-4 bg-stone-900 text-white text-[10px] font-bold uppercase tracking-widest hover:bg-gold transition-all">Check
-                        Availability</a>
+                    <a href="https://wa.me/919876543210" class="block w-full text-center py-4 bg-stone-900 text-white text-[10px] font-bold uppercase tracking-widest hover:bg-gold transition-all">Check Availability</a>
                 </div>
                 <div>
-                    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1935&auto=format&fit=crop"
-                        alt="Experience" class="w-full h-[400px] md:h-[550px] object-cover shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1935&auto=format&fit=crop" alt="Experience" class="w-full h-[400px] md:h-[550px] object-cover shadow-2xl">
                 </div>
             </div>
         </div>
@@ -255,21 +203,18 @@
             <span class="text-gold tracking-[0.3em] uppercase text-[10px] font-bold">The Global Standard</span>
             <h2 class="text-4xl md:text-5xl mt-6 serif italic leading-tight">NRI Planning? <br>We've Got You.</h2>
             <p class="mt-8 text-stone-400 leading-relaxed text-sm md:text-base">
-                90% of our clients plan from the UK, Canada, and the USA. We offer specialized virtual skin-prep
-                journeys to ensure you arrive wedding-ready.
+                90% of our clients plan from the UK, Canada, and the USA. We offer specialized virtual skin-prep journeys to ensure you arrive wedding-ready.
             </p>
             <div class="mt-16 grid md:grid-cols-2 gap-8 text-left">
                 <div class="bg-stone-800/50 p-8 border border-stone-800">
                     <span class="text-gold text-2xl serif mb-4 block">01</span>
                     <span class="font-bold text-sm block mb-2 uppercase tracking-widest">Virtual Consultations</span>
-                    <p class="text-xs text-stone-500 leading-relaxed">Book your session 6 months out to sync your
-                        skincare with our artistry before you fly in.</p>
+                    <p class="text-xs text-stone-500 leading-relaxed">Book your session 6 months out to sync your skincare with our artistry before you fly in.</p>
                 </div>
                 <div class="bg-stone-800/50 p-8 border border-stone-800">
                     <span class="text-gold text-2xl serif mb-4 block">02</span>
                     <span class="font-bold text-sm block mb-2 uppercase tracking-widest">Digital Lookboarding</span>
-                    <p class="text-xs text-stone-500 leading-relaxed">We coordinate digitally with your couture
-                        designers to match jewelry and draping perfectly.</p>
+                    <p class="text-xs text-stone-500 leading-relaxed">We coordinate digitally with your couture designers to match jewelry and draping perfectly.</p>
                 </div>
             </div>
         </div>
@@ -279,24 +224,17 @@
         <div class="max-w-3xl mx-auto text-center">
             <h2 class="text-3xl md:text-4xl serif italic mb-10">Skin-True Realism.</h2>
             <p class="text-stone-500 leading-relaxed text-sm md:text-lg font-light">
-                Instagram filters have standardized the "bridal face"—heavy foundations and greyish undertones. Anthea
-                reverses this. We ensure you look stunning in your 4K film, yet completely like <span
-                    class="text-stone-900 font-normal underline decoration-gold">yourself</span> when greeting guests in
-                person.
+                Instagram filters have standardized the "bridal face"—heavy foundations and greyish undertones. Anthea reverses this. We ensure you look stunning in your 4K film, yet completely like <span class="text-stone-900 font-normal underline decoration-gold">yourself</span> when greeting guests in person.
             </p>
         </div>
     </section>
 
     <footer class="bg-stone-100 py-20 px-5 text-center">
-        <div class="flex justify-center mb-8">
-            <img src="assets/images/Anthea_Logo_Centered.png" alt="Anthea Logo" class="h-16 w-auto object-contain">
-        </div>
+        <div class="text-2xl font-bold tracking-tighter serif mb-8">ANTHEA<span class="text-gold">.</span></div>
         <p class="text-[10px] text-stone-400 uppercase tracking-[0.5em] mb-10">Model Town, Jalandhar, Punjab</p>
         <div class="flex justify-center space-x-10 mb-16">
-            <a href="#"
-                class="text-stone-900 font-bold text-[10px] uppercase tracking-widest hover:text-gold transition-colors">Instagram</a>
-            <a href="#"
-                class="text-stone-900 font-bold text-[10px] uppercase tracking-widest hover:text-gold transition-colors">WhatsApp</a>
+            <a href="#" class="text-stone-900 font-bold text-[10px] uppercase tracking-widest hover:text-gold transition-colors">Instagram</a>
+            <a href="#" class="text-stone-900 font-bold text-[10px] uppercase tracking-widest hover:text-gold transition-colors">WhatsApp</a>
         </div>
         <div class="text-[8px] text-stone-400 uppercase tracking-[0.2em]">
             &copy; 2026 Anthea Makeover. Authority in Beauty.
@@ -314,7 +252,7 @@
 
         function rotateSlogan() {
             sloganEl.classList.remove('reveal-text');
-            void sloganEl.offsetWidth;
+            void sloganEl.offsetWidth; 
             sloganEl.classList.add('reveal-text');
             currentSlogan = (currentSlogan + 1) % slogans.length;
             setTimeout(() => { sloganEl.innerHTML = slogans[currentSlogan]; }, 100);
@@ -344,5 +282,4 @@
         });
     </script>
 </body>
-
 </html>
